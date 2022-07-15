@@ -1,0 +1,229 @@
+
+
+    body {
+        background-color: hsl(0, 0%, 98%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9375rem;
+        margin: 0;
+    }
+
+@media screen and (min-width: 376px) {
+    main {
+        width: 50%;
+        margin:  0 auto;
+    }
+
+    .title-group {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: 200;
+        margin: 100px auto 0 auto;
+        color: hsl(234, 12%, 34%);
+    }
+
+    .title-too {
+        font-size: 2rem;
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+        margin: 0 0 20px 0;
+    }
+
+    .title-description {
+        font-size: 1rem;
+        font-weight: 400;
+        color: hsla(234, 12%, 34%, 50%);
+        width:  53%;
+        margin: 0 auto;
+    }
+
+    .cards {
+        margin: 75px auto;
+        width: 42%;
+    }
+
+    .card {
+        background-color: hsl(0, 0%, 100%);
+        height: 170px;
+        width: 320px;
+        border-radius: 6px;
+        padding: 30px;
+        margin: 0 auto 40px auto;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 2px 2px 20px -1px hsl(212deg 86% 64% / 17%);
+    }
+
+    .card-head {
+        color: hsl(234, 12%, 34%);
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-description {
+        font-weight: 400;
+        color: hsla(234, 12%, 34%, 50%);
+    }
+
+    .card-image {
+        float: right;
+    }
+
+    #top-card {
+        border-top: 6px solid hsl(0, 78%, 62%);
+    }
+
+    #left-card {
+        position: relative;
+        right: 420px;
+        bottom: 135px;
+        border-top: 6px solid hsl(180, 62%, 55%);
+    }
+
+    #right-card {
+        position: relative;
+        left: 420px;
+        bottom: 411px;
+        border-top: 6px solid hsl(212, 86%, 64%);
+    }
+
+    #bottom-card {
+        border-top: 6px solid hsl(34, 97%, 64%);
+        position: relative;
+        bottom: 550px;
+    }
+
+    footer {
+        height: 100px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 600px;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        padding-top:  40px;
+    }
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+}
+
+@media screen and (width: 375px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .title-group {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin: 100px auto 0 auto;
+        color: hsl(234, 12%, 34%);
+    }
+
+    .title-too {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+        margin: 0 0 20px 0;
+    }
+
+    .title-description {
+        font-size: 1rem;
+        font-weight: 400;
+        color: hsla(234, 12%, 34%, 50%);
+        width:  90%;
+        margin: 0 auto;
+    }
+
+    .cards {
+        margin: 75px auto;
+        width: 100%;
+    }
+
+    .card {
+        background-color: hsl(0, 0%, 100%);
+        height: 170px;
+        width: 260px;
+        border-radius: 6px;
+        padding: 30px;
+        margin: 0 auto 40px auto;
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        box-shadow: 2px 2px 20px -1px hsl(212deg 86% 64% / 17%);
+    }
+
+    .card-head {
+        color: hsl(234, 12%, 34%);
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-description {
+        font-weight: 400;
+        color: hsla(234, 12%, 34%, 50%);
+    }
+
+    .card-image {
+        float: right;
+    }
+
+    #top-card {
+        border-top: 6px solid hsl(0, 78%, 62%);
+        position: absolute;
+        left: 25px;
+        bottom: 32px;
+    }
+
+   #left-card {
+        position: absolute;
+        right: 30px;
+        bottom: 298px;
+        border-top: 6px solid hsl(180, 62%, 55%);
+    }
+
+    #right-card {
+        position: absolute;
+        left: 25px;
+        bottom: -501px;
+        border-top: 6px solid hsl(212, 86%, 64%);
+    }
+    #bottom-card {
+        border-top: 6px solid hsl(34, 97%, 64%);
+        position: absolute;
+        bottom: -235px;
+        left: 25px;
+    }
+
+    footer {
+        height: 100px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        bottom: -1086px;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        padding-top:  40px;
+    }
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    
+}
