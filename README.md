@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://github.com/digigrrl525/FM-four-card-feature)
+- Live Site URL: (https://digigrrl525.github.io/FM-four-card-feature/)
 
 ## My process
 
